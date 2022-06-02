@@ -1,0 +1,21 @@
+
+body {
+
+    text-align: center;
+
+}
+
+#page {
+    
+    display: flex;
+    justify-content: center;
+}
+
+#bgimg{
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+

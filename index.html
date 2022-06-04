@@ -2,27 +2,43 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-</head>
-<title>Pedra Papel e Tesoura</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Pedra Papel e Tesoura</title>
 </head>
 
 <body>
-    <h1>Placar do jogo</h1>
-    <div id="page">
-        <p>Adversário:</p>
-        <p id="contAdver">0</p>
-        <img src="./img/rock-paper-scissors.png" id="bgimg">
-        <p>Você:</p>
-        <p id="contJogador">0</p>
+    <header>
+        <h1>Placar do jogo</h1>
 
-    </div>
+    </header>
 
-    <script src="/script.js"></script>
+    <main id="page">
+
+        <div id="container">
+            <div>
+                <span>Você:</span>
+                <span id="contJogador">0</span>
+            </div>
+            <img src="./img/rock-paper-scissors.png" id="bgimg">
+            <div>
+                <span>Adversário:</span>
+                <span id="contAdver">0</span>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <button id="btnJogar" onclick="iniciarJogo(true)">Jogar</button>
+    </footer>
+
+    <script src="/script.js"> </script>
 </body>
 
 </html>
